@@ -75,7 +75,7 @@ mark.orange{
     ul{
         float: none;
         display: block;
-        align-items: right;
+        text-align: left;
     }
 
 
