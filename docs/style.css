@@ -119,7 +119,7 @@ mark.orange{
 } */
 
   
-.procedure{
+/* .procedure{
     width: 100%;
     height: 400px;
     /* background-color: black; */
@@ -132,7 +132,7 @@ mark.orange{
     float: left;
     width: 33.33%;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 300px;
 }
 
 .column img{
@@ -158,10 +158,10 @@ mark.orange{
     content: "";
     display: table;
     clear: both;
-}
+} 
 
 
-/* @media screen and (max-width: 500px) {
+ @media screen and (max-width: 500px) {
     nav{
         float: none;
         display: block;
@@ -175,4 +175,18 @@ mark.orange{
     }
 
 
-} */
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  } */
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
