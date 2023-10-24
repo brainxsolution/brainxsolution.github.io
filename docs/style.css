@@ -70,7 +70,7 @@ mark.orange{
     border-radius: 6px;
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
     nav{
         float: none;
         display: block;
@@ -84,4 +84,4 @@ mark.orange{
     }
 
 
-}
+} */
