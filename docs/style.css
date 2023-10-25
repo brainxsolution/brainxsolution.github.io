@@ -5,47 +5,70 @@
     font-family: 'Poppins';
 }
 
+.navbar{
+    width: 100%;
+    height: 20vh;
+    align-items: center;
+    justify-content:center;
+    display: block;
+}
+
+.navbar nav{
+    position: fixed;
+    margin: 10vh 76vh;
+    width: 500px;
+    height: 60px;
+    background-color: #6cc7e4;
+    border-radius: 30px;S
+}
+
+.navbar nav img{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 10%;
+    height: 80%;
+}
+
+.navbar a{
+    margin-top: 0px;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    color: #1b363f;
+}
+
+.navbar::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .header{
     width: 100%;
-    height: 150vh;
-    padding: 0 10%;
+    height: 1500px;
+    padding: 0 50px;
     background-color: white;
     box-sizing: border-box;
 }
 
-.header img{
-    width: 15%;
-    margin: 20px 0px;
-    /* float: left; */
-}
-
-nav{
-    width: 100%;
-    /* object-position: center top; */
-    /* justify-content: space-between; */
-    padding: 20px 0;
-    /* float: right; */
-    display: inline-block;
-}
-
-/* nav ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 10px 10px;
-}
-nav ul li a{
-    text-decoration: none;
-    color: dimgray;
-} */
 
 .header-text-box{
-    margin-top: 130px;
+    margin-top: 110px;
     height: 0px;
-    max-width: 600px;
+    max-width: 100%;
+    text-align: center;
 }
 
 .header-text-box h1{
-    line-height: 0.3;
+    line-height: 0.5;
+    font-weight: 2000;
     font-size: 70px;
     margin-bottom: 20px;
     padding: 0;
@@ -64,11 +87,11 @@ mark.orange{
 .header-text-box p{
     color:#1b363f;
     font-size: 25px;
-    line-height: 0.6;
+    line-height: 0.8;
     margin-bottom: 10px;
-    /* font-family:  "Century Gothic"; */
+    font-family:  "Century Gothic";
 }
-
+/*
 .text-box{
     margin-top: 90px;
     max-width: 550px;
@@ -80,7 +103,7 @@ mark.orange{
     padding: 0;
 }
 
-/* .text-box a{
+.text-box a{
     display: inline-block;
     text-decoration: none;
     color: #fff;
@@ -89,7 +112,7 @@ mark.orange{
     font-size: 18px;
     margin-top: 50px;
     border-radius: 6px;
-} */
+}
 
 .text-box p1{
     font-size: 25px;
@@ -123,9 +146,9 @@ mark.orange{
 
 }
   
-  /* Clear floats after the columns */
-  .row:after {
+
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+  } */
