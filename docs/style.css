@@ -10,7 +10,7 @@
     height: 20vh;
     align-items: center;
     justify-content:center;
-    display: block;
+    display: flex;
 }
 
 .navbar nav{
