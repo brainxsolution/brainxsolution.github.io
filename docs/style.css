@@ -16,8 +16,9 @@
 }
 
 .navbar nav{
-    position: fixed;
-    margin: 6vh 60vh;
+    /* position: fixed; */
+    /* margin: 6vh 60vh; */
+    margin: auto;
     width: 374px;
     height: 60px;
     background-color: #6cc7e4;
@@ -114,7 +115,7 @@ mark.orange{
 
 .concept{
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     box-sizing: border-box;
     align-items: center;
     padding: 0;
@@ -123,11 +124,12 @@ mark.orange{
 
 .column {
     float: left;
+    box-sizing: border-box;
     width: 50%;
     text-align: left;
     align-items: center;
-    padding: 20px 20px;
-    /* background-color: #6cc7e4; */
+    padding: 20px 40px;
+    /* background-color: white; */
 } 
 
 .column h1{
@@ -135,7 +137,6 @@ mark.orange{
     line-height: 0.8;
     font-weight: 2000;
     font-size: 5vw;
-    padding: 0px 20px;
 }
 
 .column p1{
@@ -145,8 +146,6 @@ mark.orange{
     font-size: 22px;
     line-height: 1.2;
     font-weight: 2000;
-    padding: 0px 20px;
-    
 }
 
 .column p2{
@@ -155,7 +154,6 @@ mark.orange{
     font-size: 22px;
     line-height: 1.2;
     font-weight: 2000;
-    padding: 0px 20px;
 }
 
 .column img{
@@ -166,13 +164,13 @@ mark.orange{
     border-radius: 10px;
 }
 
+
 .column h{
     margin-top: 15vh;
     color: #1b363f;
     font-size: 50px;
 
 }
-
 
 .concept:after {
     content: "";
@@ -181,26 +179,142 @@ mark.orange{
 } 
 
 
+
+.process_header{
+    width: 100%;
+    box-sizing:border-box;
+    height: 20vh;
+    align-items: center;
+    text-align: start;
+    padding: 0px 40px;
+    /* background-color: aquamarine; */
+}
+
+
+.process_header h1{
+    display: block;
+    line-height: 0.8;
+    font-weight: 2000;
+    font-size: 4vw;
+}
+
+.process_header p1{
+    display: block;
+    line-height: 1;
+    font-size: 24px;
+}
+
+.process_box{
+    float: left;
+    box-sizing: border-box;
+    width: 70%;
+    height: 60vh;
+    padding:  10px 60px;
+    /* background-color: aquamarine; */
+}
+
+.process_box h1{
+    margin: auto;
+    display: inline-block;
+    line-height: 0.8;
+    font-weight: 2000;
+    font-size: 4vw;
+    padding: 20px;
+}
+
+.process_box p1{
+    display: inline-block;
+    margin: auto;
+    width: 100px;
+    line-height: 0.8;
+    font-weight: 2000;
+    font-size: 4vw;
+    margin-top: 2vh;
+    padding: 20px;
+}
+
+.process_box img{
+    float: right;
+    display: flex;
+    width: 15%;
+    object-fit: contain;
+    margin: 2vh 12vh;
+}
+
+
+.process_box p2 {
+    margin: auto;
+    display: block;
+    color: black;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 2000;
+    padding: 20px;
+}
+
+.process_box1{
+    float: right;
+    box-sizing: border-box;
+    width: 70%;
+    height: 60vh;
+    padding:  10px 60px;
+}
+
+.process_box1 h1{
+
+    display: inline-block;
+    line-height: 0.8;
+    font-weight: 2000;
+    font-size: 4vw;
+    padding: 20px;
+}
+
+.process_box1 p1{
+    display: inline-block;
+    width: 100px;
+    line-height: 0.8;
+    font-weight: 2000;
+    font-size: 4vw;
+    margin-top: 2vh;
+    padding: 20px;
+}
+
+.process_box1 p2 {
+    display: block;
+    color: black;
+    font-size: 22px;
+    line-height: 1.2;
+    font-weight: 2000;
+    padding: 20px;
+}
+
+
 @media only screen and (min-width: 375px) and (max-width: 812px){ 
-    .navbar, .header, .procedure, .column {
+    .navbar, .header, .procedure, .column, .process_box, .process_header, .process, .process_box,
+    .process_box1{
         /* display: none !important; visibility: hidden !important; */
         width: 100%;
+        /* p { font-size: 16px; } */
     }
 }
 
 @media only screen and (min-width: 375px) 
 and (max-width: 812px) and (orientation: portrait) { 
-    .navbar, .header, .procedure, .column {
+    .navbar, .header, .procedure, .column, .process_box, .process_header, .process, .process_box,
+    .process_box1{
         /* display: none !important; visibility: hidden !important; */
         width: 100%;
+        /* p { font-size: 16px; } */
     }
 }
 
 @media only screen and (min-width: 375px) 
 and (max-width: 812px) and (orientation: landscape) { 
-    .navbar, .header, .procedure, .column {
+    .navbar, .header, .procedure, .column, .process_box, .process_header, .process, .process_box,
+    .process_box1{
         /* display: none !important; visibility: hidden !important; */
         width: 100%;
+        /* p { font-size: 16px; } */
     }
 }
   
